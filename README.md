@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a preliminary implementation of the Structural Agnostic Modelling (SAM) causal discovery method proposed by Kalainathan et al. (citation below) and applies it to the task of causal learning for knowledge graphs (KG). 
+This repository contains a *preliminary* implementation of the Structural Agnostic Modelling (SAM) causal discovery method proposed by Kalainathan et al. (citation below) and applies it to the task of causal learning for knowledge graphs (KG). 
 
 The SAM method generates causal graphs, i.e., graphical descriptions of the underlying causal structure for a set of data points, by framing the causal discovery problem as an adversarial learning task between different nodes that 
 each estimate variable distributions conditionally and then compare their estimates to other nodes in the neural network as well as the discriminator.
