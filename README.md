@@ -7,7 +7,7 @@ each estimate variable distributions conditionally and then compare their estima
 
 A learning criterion that combines distribution estimation, sparsity and acyclicity constraints is used to enforce the optimization of the graph structure and parameters using the Stochastic Gradient Descent (SGD) algorithm. 
 
-The SAM method is applied to causal discovery for KGs by first obtaining a low-dimensional tensor decomposition of each knowledge graph that is passed as an input matrix to the SAM model.
+The SAM method is applied to causal discovery for KGs by first obtaining a low-dimensional tensor decomposition of each knowledge graph which is then passed as an input matrix to the SAM model for causal graph prediction.
 
 # Datasets
 The SAM model performs causal discovery on two knowledge graphs: the FB1k-237 dataset and the WN18RR dataset.
