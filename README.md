@@ -5,7 +5,7 @@ This repository contains an implementation of the Structural Agnostic Modelling 
 The SAM method generates causal graphs, i.e., graphical descriptions of the underlying causal structure for a set of data points, by framing the causal discovery problem as an adversarial learning task between different nodes that 
 each estimate variable distributions conditionally and then compare their estimates to other nodes in the neural network as well as the discriminator.
 
-A learning criterion that combines distribution estimation, sparsity and acyclicity constraints is used to enforce the optimization of the graph structure and parameteres using the Stochastic Gradient Descent (SGD) algorithm. 
+A learning criterion that combines distribution estimation, sparsity and acyclicity constraints is used to enforce the optimization of the graph structure and parameters using the Stochastic Gradient Descent (SGD) algorithm. 
 
 The SAM method is applied to causal discovery for KGs by first obtaining a low-dimensional tensor decomposition of each knowledge graph that is passed as an input matrix to the SAM model.
 
