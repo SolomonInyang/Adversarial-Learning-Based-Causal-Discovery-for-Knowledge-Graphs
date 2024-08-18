@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.8 (SAM_implementation)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.10 (sftp://azureuser@40.82.210.182:22/home/azureuser/.virtualenvs/SAM_implementation/bin/python)" project-jdk-type="Python SDK" />
+</project>

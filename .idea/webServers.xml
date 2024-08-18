@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6f67b986-1d6e-4085-8173-66f99bdf4c0f" name="virtual_machine_1">
+        <fileTransfer rootFolder="/home/azureuser/SAM_implementation" accessType="SFTP" host="40.82.210.182" port="22" sshConfigId="1f5bddd9-4bc4-4d47-ad94-6d5a0c12a161" sshConfig="azureuser@40.82.210.182:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
